@@ -1,5 +1,5 @@
 from ch1.compression.trivial_compression import CompressedGene
-
+from ch1.compression.unbreakable_encryption import *
 
 def compress():
     from sys import getsizeof
@@ -10,5 +10,11 @@ def compress():
     print(compressed) #압축 해제
     print("is it the same string between original and decompressed results? {}".format(original == compressed.decompress()))
 
+def unb_comp():
+    key1, key2 = encrypt("One Time Pad!")
+    result:str = decrypt(key1, key2)
+    print(result)
+
 if __name__ == '__main__':
-    compress()
+    #compress()
+    unb_comp()
