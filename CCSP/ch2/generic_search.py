@@ -92,6 +92,40 @@ def node_to_path(node: Node[T]) -> List[T]:
     return path
 
 
+class Queue(Generic[T]):
+    def __init__(self) -> None:
+        self._container: Deque[T] = Deque()
+
+    @property
+    def empty(self) -> bool:
+        return not self._container # container가 비었다면 True
+
+    def push(self, item: T) -> None:
+        self._container.append(item)
+
+    def pop(self) -> T:
+        return self._container.popleft() #선입선출
+
+    def __repr__(self) -> str:
+        return repr(self._container)
+
+
+def bfs(initial: T, goal_test: Callable[[T], bool], successors:Callable[[T], List[T]])-> Optional[Node[T]]:
+    frontier : Queue[Node[T]] = Queue()
+    frontier.push(Node(initial, None))
+    explored: Set[T] = {initial}
+
+    while not frontier.empty: #방문할 곳이 더 있는지 조사
+        current_node: Node[T] = frontier.pop()
+        current_state: T = current_node.state
+        if goal_test(current_state): #목표지점을 찾았을 시 종료
+            return current_node
+        for child in successors(current_state): #방문하지 않은 다음 장소가 있는지 확인
+            if child in explored: #이미 방문한 곳이라면 건너 뛴다
+                continue
+            explored.add(child)
+            frontier.push(Node(child, current_node))
+    return None #모든 곳을 방문했지만, 결국 목표지점을 찾지 못함
 
 if __name__ == "__main__":
     print(linear_contains([1,5,15,15,15,15,20], 5))
