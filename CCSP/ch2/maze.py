@@ -2,8 +2,8 @@ from enum import Enum
 from typing import List, NamedTuple, Callable, Optional
 import random
 from math import sqrt
-#from generic_search import dfs, bfs, node_to_path, astar, Node
-from generic_search import dfs, bfs, node_to_path, Node
+from generic_search import dfs, bfs, node_to_path, astar, Node
+#from generic_search import dfs, bfs, node_to_path, Node
 
 class Cell(str, Enum):
     EMPTY = " "
@@ -72,6 +72,20 @@ class Maze:
         self._grid[self.start.row][self.start.column] = Cell.START
         self._grid[self.goal.row][self.goal.column] = Cell.GOAL
 
+def euclidean_distance(goal: MazeLocation) -> Callable[[MazeLocation], float]:
+    def distance(ml: MazeLocation) -> float:
+        xdist: int = ml.column - goal.column
+        ydist: int = ml.row - goal.row
+        return sqrt((xdist * xdist) + (ydist * ydist))
+    return distance
+
+def manhattan_distance(goal: MazeLocation) -> Callable[[MazeLocation], float]:
+    def distance(ml: MazeLocation) -> float:
+        xdist: int = abs(ml.column - goal.column)
+        ydist: int = abs(ml.row - goal.row)
+        return (xdist + ydist)
+    return distance
+
 
 
 if __name__ == "__main__":
@@ -87,11 +101,20 @@ if __name__ == "__main__":
     #     print(m)
     #     m.clear(path1)
 
-    solution2 : Optional[Node[MazeLocation]] = bfs(m.start, m.goal_test, m.successors)
-    if solution2 is None:
-        print("Cannot find the way using BFS")
+    # solution2 : Optional[Node[MazeLocation]] = bfs(m.start, m.goal_test, m.successors)
+    # if solution2 is None:
+    #     print("Cannot find the way using BFS")
+    # else:
+    #     path2:List[MazeLocation] = node_to_path(solution2)
+    #     m.mark(path2)
+    #     print(m)
+    #     m.clear(path2)
+
+    distance: Callable[[MazeLocation], float] = manhattan_distance(m.goal)
+    solution3 : Optional[Node[MazeLocation]] = astar(m.start, m.goal_test, m.successors, distance)
+    if solution3 is None:
+        print("Cannot find the way using A*")
     else:
-        path2:List[MazeLocation] = node_to_path(solution2)
-        m.mark(path2)
+        path3: List[MazeLocation] = node_to_path(solution3)
+        m.mark(path3)
         print(m)
-        m.clear(path2)
