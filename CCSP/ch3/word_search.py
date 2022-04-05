@@ -29,7 +29,7 @@ def generate_domain(word: str, grid:Grid) ->List[List[GridLocation]]:
                 domain.append([GridLocation(row, c) for c in columns])
                 if row + length <= height:
                     domain.append([GridLocation(r, col + (r - row)) for r in rows])
-            if row  + length <= height:
+            if row + length <= height:
             #위에서 아래로
                 domain.append([GridLocation(r, col) for r in rows])
                 if col - length >= 0:
@@ -42,8 +42,19 @@ class WordSearchConstraint(Constraint[str, List[GridLocation]]):
         self.words: List[str] = words
 
     def satisfied(self, assignment: Dict[str, List[GridLocation]]) -> bool:
-        all_locations = [locs for values in assignment.values() for locs in values]
+        #all_locations = [locs for values in assignment.values() for locs in values]
+        for values in assignment.values():
+            for locs in values:
+                all_locations = locs
+        print(all_locations)
         return len(set(all_locations)) == len(all_locations) # 중복제거는 왜?
+
+    #satisfied는 True // False를 뱉는다.
+
+"""
+HW1 : 중복단어 허용하는 단어 검색 구현 
+"""
+
 
 if __name__ == "__main__":
     grid: Grid = generate_grid(9, 9)
@@ -51,7 +62,7 @@ if __name__ == "__main__":
     locations: Dict[str, List[List[GridLocation]]] = {}
     for word in words:
         locations[word] = generate_domain(word, grid)
-    csp: CSP[str, List[GridLocation]] = CSP(words, locations)
+    csp: CSP[str, List[GridLocation]] = CSP(words, locations) # V ,D : 모든 변수에 도메인이 할당 된 상태
     csp.add_constraint(WordSearchConstraint(words))
     solution: Optional[Dict[str, List[GridLocation]]] = csp.backtracking_search()
     if solution is None:

@@ -35,14 +35,16 @@ class CSP(Generic[V, D]):
                 return False
         return True
 
-    def backtracking_search(self, assignment: Dict[V, D] = {})-> Optional[Dict[V, D]]:
+    def backtracking_search(self, assignment: Dict[V, D] = {}) -> Optional[Dict[V, D]]:
         if len(assignment) == len(self.variables): return assignment
         unassigned: List[V] = [v for v in self.variables if v not in assignment]
-        first: V = unassigned[0]
+        print(unassigned)
+        first: V = unassigned[0] #이게 문젠데
         for value in self.domains[first]:
             local_assignment = assignment.copy() # 왜 copy를 썼다그랬지?
             local_assignment[first] = value
             if self.consistent(first, local_assignment):
+                print(self.consistent(first, local_assignment)) #중복 빼고 OK를 내뱉음
                 result: Optional[Dict[V, D]] = self.backtracking_search(local_assignment) # 재귀적 접근?
                 if result is not None:
                     return result
