@@ -11,14 +11,19 @@
 
 1-1. 탐색과 정렬 (1)
 
-A – 1920 수 찾기 https://www.acmicpc.net/problem/1920 V
+A – 1920 수 찾기 https://www.acmicpc.net/problem/1920 [V] 이진탐색  
 
-B – 2750 수 정렬하기 https://www.acmicpc.net/problem/2750 
+B – 2750 수 정렬하기 https://www.acmicpc.net/problem/2750 [V] 퀵소트  
 
-C – 2751 수 정렬하기 2 https://www.acmicpc.net/problem/2751
+C – 2751 수 정렬하기 2 https://www.acmicpc.net/problem/2751 [V] 머지소트  
 
-D – 10989 수 정렬하기 3 https://www.acmicpc.net/problem/10989
+: 퀵을 사용했는데 메모리 초과나 오버플로가 자꾸 떴다.   
+퀵의 최악의 경우인 O(N^2)가 나타났기 때문인 듯 하다.  
+다른 답변들이 머지소트로 접근해서 일단은 써 봤는데 정답처리가 되었다.   
+따라서 코테에서 sorting문제가 나오면 일단 merge를 쓰는게 맞는 듯 하다.  
 
+D – 10989 수 정렬하기 3 https://www.acmicpc.net/problem/10989 []  
+  
 
 => O(nlogn) O(logn) 구현
 
