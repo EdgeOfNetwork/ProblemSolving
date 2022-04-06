@@ -20,21 +20,19 @@ C – 2751 수 정렬하기 2 https://www.acmicpc.net/problem/2751 [V] 머지소
 : 퀵을 사용했는데 메모리 초과나 오버플로가 자꾸 떴다.   
 퀵의 최악의 경우인 O(N^2)가 나타났기 때문인 듯 하다.  
 다른 답변들이 머지소트로 접근해서 일단은 써 봤는데 정답처리가 되었다.   
-따라서 코테에서 sorting문제가 나오면 일단 merge를 쓰는게 맞는 듯 하다.  
-
-D – 10989 수 정렬하기 3 https://www.acmicpc.net/problem/10989 []  
+따라서 코테에서 sorting문제가 나오면 일단 merge를 쓰는게 맞는 듯 하다.   
   
-
-=> O(nlogn) O(logn) 구현
-
-
-
-E – 10815 숫자 카드 https://www.acmicpc.net/problem/10815
-
- 
-
-문제를 풀기 전에 공부하기: 이진 탐색, O(nlgn) 정렬, 카운팅 정렬
-
+D – 10989 수 정렬하기 3 https://www.acmicpc.net/problem/10989 [V]  
+  
+: 2751에서 메모리 사용을 죽이는 방식이다. 다른 사람의 코드를 참고했는데  
+와 풀이법 예술이었다.  방법을 기억했다가 두고두고 써먹어봐야겠다 
+빈 리스트에 내용물을 채워넣고 이를 활용하는 방법이었다.  
+=> O(nlogn) O(logn) 구현  
+  
+E – 10815 숫자 카드 https://www.acmicpc.net/problem/10815  
+  
+문제를 풀기 전에 공부하기: 이진 탐색, O(nlgn) 정렬, 카운팅 정렬  
+  
 학습 유의사항: 이분 탐색과 정렬을 직접 구현해도 좋지만, std::binary_search, std::lower_bound/std::upper_bound, std::sort 등의 STL을 제대로 익히고 가자.
 
  
