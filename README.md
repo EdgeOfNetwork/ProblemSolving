@@ -1,10 +1,12 @@
 # ProblemSolving
 
-## BOJ (Python)
-출처 : https://ryute.tistory.com/33
-길라잡이,
+## BOJ (Python)  
+출처 : https://ryute.tistory.com/33  
+길라잡이,  
 
-1-1. 탐색과 정렬 (1)
+<hr/> 
+
+### 1-1. 탐색과 정렬 (1)  
 A – 1920 수 찾기 https://www.acmicpc.net/problem/1920 [V] 이진탐색  
 B – 2750 수 정렬하기 https://www.acmicpc.net/problem/2750 [V] 퀵소트  
 C – 2751 수 정렬하기 2 https://www.acmicpc.net/problem/2751 [V] 머지소트  
