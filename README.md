@@ -1,20 +1,12 @@
 # ProblemSolving
 
-
-## BOJ & SWEA 
-
 ## BOJ (Python)
-
 출처 : https://ryute.tistory.com/33
-
 길라잡이,
 
 1-1. 탐색과 정렬 (1)
-
 A – 1920 수 찾기 https://www.acmicpc.net/problem/1920 [V] 이진탐색  
-
 B – 2750 수 정렬하기 https://www.acmicpc.net/problem/2750 [V] 퀵소트  
-
 C – 2751 수 정렬하기 2 https://www.acmicpc.net/problem/2751 [V] 머지소트  
 
 : 퀵을 사용했는데 메모리 초과나 오버플로가 자꾸 떴다.   
@@ -32,13 +24,11 @@ D – 10989 수 정렬하기 3 https://www.acmicpc.net/problem/10989 [V] 카운�
   
 => O(nlogn) O(logn) 구현  
   
-E – 10815 숫자 카드 https://www.acmicpc.net/problem/10815  
+E – 10815 숫자 카드 https://www.acmicpc.net/problem/10815  [V] 이진탐색  
   
 문제를 풀기 전에 공부하기: 이진 탐색, O(nlgn) 정렬, 카운팅 정렬  
   
-학습 유의사항: 이분 탐색과 정렬을 직접 구현해도 좋지만, std::binary_search, std::lower_bound/std::upper_bound, std::sort 등의 STL을 제대로 익히고 가자.
-
- 
+<hr/>
 
 1-2. 기초 자료구조 (1)
 
@@ -176,7 +166,7 @@ D – 1016 제곱 ㄴㄴ 수 https://www.acmicpc.net/problem/1016
 
 학습 유의사항: X
 
- 
+ <hr/>
 
 <SET 3>
 
@@ -195,7 +185,7 @@ D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178
 E – 2606 바이러스 https://www.acmicpc.net/problem/2606
 
  
-
+<hr/>
 문제를 풀기 전에 공부하기: DFS와 BFS
 
 학습 유의사항: X
