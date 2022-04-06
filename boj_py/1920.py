@@ -1,27 +1,25 @@
-def binary_search(array, value, low, high):
-    if low > high : return False
+def qsort(a, low, high):
+    if low < high:
+        pivot = partition(a, low, high)
+        qsort(a, low, pivot - 1)
+        qsort(a, pivot + 1, high)
+    return a
 
-    mid = (low + high) // 2
-    if array[mid] > value:
-        return binary_search(array, value, low, mid-1)
-    elif array[mid] < value:
-        return binary_search(array, value, mid + 1, high)
-    else:
-        return True
-
-
-N = int(input())
-A = list(map(int, input().split()))
-M = int(input())
-M_list = list(map(int, input().split()))
-A = sorted(A)
-
-for m in M_list:
-    if binary_search(A, m, 0, N-1):
-        print(1)
-    else:
-        print(0)
+def partititon(a, pivot, high): #low가 피벗으로 들어갔네?
+    i = pivot + 1 #왜 low에 +1을 할까
+    j = high
+    while True:
+        while i < high and a[i] < a[pivot]:
+            i += 1
+        while j > pivot and a[j] > a[pivot]:
 
 
+if __name__ == "__main__":
+    N = int(input())
+    li = []
 
-#수정
+    for i in range(N):
+        li.append(int(input()))
+    qsort(li)
+
+
