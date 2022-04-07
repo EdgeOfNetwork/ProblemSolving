@@ -4,7 +4,7 @@ for _ in range(n):
     graph.append(list(map(int, input())))
 cnt_list = []
 
-def dfs(x, y):
+def dfs(x, y): #스택의 원리로 재귀적 풀이
     count = 0
     if 0 <= x < n and 0 <= y < n and graph[x][y]:
         count += 1
