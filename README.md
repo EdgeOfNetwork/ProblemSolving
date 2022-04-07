@@ -173,13 +173,16 @@ D – 1016 제곱 ㄴㄴ 수 https://www.acmicpc.net/problem/1016
 <SET 3>
 
  
-
 3-1. DFS와 BFS (1)
 
-A – 1260 DFS와 BFS https://www.acmicpc.net/problem/1260
+A – 1260 DFS와 BFS https://www.acmicpc.net/problem/1260 [V] 
 
-B – 2667 단지번호붙이기 https://www.acmicpc.net/problem/2667
-
+B – 2667 단지번호붙이기 https://www.acmicpc.net/problem/2667 [V]  
+  
+문제를 잘 읽자    
+sort() vs sorted,  
+메서드를 쓸때는 docs를 읽자    
+  
 C – 1697 숨바꼭질 https://www.acmicpc.net/problem/1697
 
 D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178
@@ -187,12 +190,11 @@ D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178
 E – 2606 바이러스 https://www.acmicpc.net/problem/2606
 
  
-<hr/>
 문제를 풀기 전에 공부하기: DFS와 BFS
 
 학습 유의사항: X
 
- 
+ <hr/>
 
 3-2. 기초 다이나믹 프로그래밍 (1)
 
