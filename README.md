@@ -183,9 +183,9 @@ B – 2667 단지번호붙이기 https://www.acmicpc.net/problem/2667 [V]
 sort() vs sorted,  
 메서드를 쓸때는 docs를 읽자    
   
-C – 1697 숨바꼭질 https://www.acmicpc.net/problem/1697
-
-D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178
+C – 1697 숨바꼭질 https://www.acmicpc.net/problem/1697 [V]  
+  
+D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178 
 
 E – 2606 바이러스 https://www.acmicpc.net/problem/2606
 
