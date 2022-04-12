@@ -185,7 +185,7 @@ sort() vs sorted,
   
 C – 1697 숨바꼭질 https://www.acmicpc.net/problem/1697 [V]  
   
-D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178 
+D – 2178 미로 탐색 https://www.acmicpc.net/problem/2178 [ing]
 
 E – 2606 바이러스 https://www.acmicpc.net/problem/2606
 
