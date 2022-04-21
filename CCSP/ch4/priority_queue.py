@@ -3,6 +3,10 @@ from heapq import heappush, heappop
 
 T = TypeVar('T')
 
+"""
+TODO : 이걸 heapq 없이 구현해볼 수 있을까?
+"""
+
 class PriorityQueue(Generic[T]):
     def __init__(self) -> None:
         self._container: List[T] = []

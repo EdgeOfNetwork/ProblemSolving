@@ -42,6 +42,7 @@ def dijkstra(wg: WeightedGraph[V], root: V) -> Tuple[List[Optional[float]], Dict
 
     return distances, path_dict
 
+
 #다익스트라 알고리즘 결과를 좀 더 쉽게 접근하게 하는 헬퍼 함수
 def distance_array_to_vertex_dict(wg: WeightedGraph[V], distances: List[Optional[float]]) -> Dict[V, Optional[float]]:
     distance_dict: Dict[V, Optional[float]] = {}

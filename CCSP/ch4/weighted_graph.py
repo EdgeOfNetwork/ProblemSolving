@@ -4,6 +4,7 @@ from weighted_edge import WeightedEdge
 
 V = TypeVar('V')
 
+
 class WeightedGraph(Generic[V], Graph[V]):
     def __init__(self, vertices: List[V] = []) -> None:
         self._vertices:List[V] = vertices
@@ -30,8 +31,14 @@ class WeightedGraph(Generic[V], Graph[V]):
             desc += f"{self.vertex_at(i)} -> {self.neighbors_for_index_with_weights(i)}\n"
         return desc
 
+
 if __name__ == "__main__":
-    city_graph2: WeightedGraph[str] = WeightedGraph(["Seattle", "San Francisco", "Los Angeles", "Riverside", "Phoenix", "Chicago", "Boston", "New York", "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"])
+    city_graph2 : WeightedGraph[str] = WeightedGraph([
+        "Seattle", "San Francisco", "Los Angeles",
+        "Riverside", "Phoenix", "Chicago", "Boston",
+        "New York", "Atlanta", "Miami", "Dallas", "Houston",
+        "Detroit", "Philadelphia", "Washington"
+    ])
 
     city_graph2.add_edge_by_vertices("Seattle", "Chicago", 1737)
     city_graph2.add_edge_by_vertices("Seattle", "San Francisco", 678)
