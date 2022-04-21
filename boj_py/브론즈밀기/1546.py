@@ -1,17 +1,16 @@
 n = int(input())
 numbers = list(map(int, input().split()))
-
 max_numb = max(numbers)
 
-print(max_numb)
-numbers.remove(max_numb)
 
-print(numbers)
+def new_mean(numbers, max_numb):
+    new_list = []
+    for numb in numbers:
+        new_list.append(numb / max_numb * 100)
 
-sum = 0
-for i in numbers:
-    sum += i
+    sum = 0
+    for i in new_list:
+        sum += i
+    return round(sum / len(new_list), 2)
 
-print(sum)
-print(len(numbers))
-
+print(new_mean(numbers, max_numb))
