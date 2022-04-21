@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db49086e-c597-49d8-948c-4c6905531fdc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/1008.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/1008.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/1152.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/1152.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/1157.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/1157.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/1330.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/1330.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/1546.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/1546.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/2438.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/2438.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/2439.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/2439.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/2475.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/2475.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/2562.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/2562.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boj_py/브론즈밀기/2577.py" beforeDir="false" afterPath="$PROJECT_DIR$/boj_py/Class/class1/2577.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27t8iAIYcv5tm2AaxhUM7LgHHwr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\qhrrl\CodeExamples\10.ProblemSolving\boj_py\Class" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.10818">
+    <configuration name="10818" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="10.ProblemSolving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_py/Class/class1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_py/Class/class1/10818.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10869" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="10.ProblemSolving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_py/Class/class1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_py/Class/class1/10869.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10871" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="10.ProblemSolving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_py/Class/class1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_py/Class/class1/10871.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="10952" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="10.ProblemSolving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_py/Class/class1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_py/Class/class1/10952.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="11720" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="10.ProblemSolving" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/boj_py/Class/class1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/boj_py/Class/class1/11720.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.10818" />
+        <item itemvalue="Python.10871" />
+        <item itemvalue="Python.10952" />
+        <item itemvalue="Python.11720" />
+        <item itemvalue="Python.10869" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db49086e-c597-49d8-948c-4c6905531fdc" name="Changes" comment="" />
+      <created>1650128146691</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1650128146691</updated>
+      <workItem from="1650128148625" duration="641000" />
+      <workItem from="1650227212137" duration="3368000" />
+      <workItem from="1650440513511" duration="7803000" />
+      <workItem from="1650527854273" duration="2357000" />
+      <workItem from="1650542642450" duration="16976000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$2439.coverage" NAME="2439 Coverage Results" MODIFIED="1650563533784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/브론즈밀기" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10869.coverage" NAME="10869 Coverage Results" MODIFIED="1650566571048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10871.coverage" NAME="10871 Coverage Results" MODIFIED="1650567893561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$2562.coverage" NAME="2562 Coverage Results" MODIFIED="1650563539081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/브론즈밀기" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$2438.coverage" NAME="2438 Coverage Results" MODIFIED="1650563159804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/브론즈밀기" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$1546.coverage" NAME="1546 Coverage Results" MODIFIED="1650561362302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/브론즈밀기" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10828.coverage" NAME="10828 Coverage Results" MODIFIED="1650554241282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/자료구조" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10845.coverage" NAME="10845 Coverage Results" MODIFIED="1650560119784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/자료구조" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10171.coverage" NAME="10171 Coverage Results" MODIFIED="1650565804847" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$main.coverage" NAME="main Coverage Results" MODIFIED="1650553958751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/자료구조" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10952.coverage" NAME="10952 Coverage Results" MODIFIED="1650567571957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$11720.coverage" NAME="11720 Coverage Results" MODIFIED="1650567257273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10818.coverage" NAME="10818 Coverage Results" MODIFIED="1650567994318" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$9498.coverage" NAME="9498 Coverage Results" MODIFIED="1650565433782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$10172.coverage" NAME="10172 Coverage Results" MODIFIED="1650566159609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/Class/class1" />
+    <SUITE FILE_PATH="coverage/10_ProblemSolving$2577.coverage" NAME="2577 Coverage Results" MODIFIED="1650564247974" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/boj_py/브론즈밀기" />
+  </component>
+</project>
