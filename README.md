@@ -34,21 +34,17 @@ E – 10815 숫자 카드 https://www.acmicpc.net/problem/10815  [V] 이진탐�
 
 1-2. 기초 자료구조 (1)
 
-A – 10828 스택 https://www.acmicpc.net/problem/10828 [V]
+A – 10828 스택 https://www.acmicpc.net/problem/10828 [V]  
+B – 10845 큐 https://www.acmicpc.net/problem/10845 [V]  
+C – 10866 덱 https://www.acmicpc.net/problem/10866  
+D – 1406 에디터 https://www.acmicpc.net/problem/1406  
 
-B – 10845 큐 https://www.acmicpc.net/problem/10845
-
-C – 10866 덱 https://www.acmicpc.net/problem/10866
-
-D – 1406 에디터 https://www.acmicpc.net/problem/1406
-
- 
 
 문제를 풀기 전에 공부하기: 스택, 큐, 덱, 연결 리스트
 
 학습 유의사항: 역시 자료구조를 직접 구현하기보다는 std::stack, std::queue, std::deque, std::list를 활용하는 방향으로 학습해 보자.
 
-</br>
+<hr/>
 
 1-3. 탐색과 정렬 (2)
 
