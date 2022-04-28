@@ -1,10 +1,16 @@
-import sys
-
 n = int(input())
 
-sum = 0
 for i in range(n):
-    input = sys.stdin.readline()
-    if 'O' in input:
-        for i in range()
-    else:
+    code = input()
+    code = list(code)
+    sum = 0
+    cnt = 0
+    for i in code:
+        if i == "O":
+            sum += cnt
+            cnt += 1
+        else:
+            cnt = 1
+    print(sum)
+
+
