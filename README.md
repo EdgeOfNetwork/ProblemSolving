@@ -250,29 +250,19 @@ E – 11052 카드 구매하기 https://www.acmicpc.net/problem/11052
 
 F – 11053 가장 긴 증가하는 부분 수열 https://www.acmicpc.net/problem/11053
 
- 
-
 문제를 풀기 전에 공부하기: X
-
 학습 유의사항: X
 
- 
+<\hr>
 
 <SET 4>
 
- 
-
 4-1. 그리디 알고리즘 (1)
 
-A – 11047 동전 0 https://www.acmicpc.net/problem/11047
-
-B – 1931 회의실배정 https://www.acmicpc.net/problem/1931
-
-C – 2217 로프 https://www.acmicpc.net/problem/2217
-
-D – 2529 부등호 https://www.acmicpc.net/problem/2529
-
- 
+A – 11047 동전 0 https://www.acmicpc.net/problem/11047 [V]  
+B – 1931 회의실배정 https://www.acmicpc.net/problem/1931  
+C – 2217 로프 https://www.acmicpc.net/problem/2217  
+D – 2529 부등호 https://www.acmicpc.net/problem/2529  
 
 문제를 풀기 전에 공부하기: 그리디 알고리즘
 
