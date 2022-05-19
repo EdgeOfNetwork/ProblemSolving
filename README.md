@@ -272,20 +272,13 @@ D – 2529 부등호 https://www.acmicpc.net/problem/2529
 
 4-2. 파라메트릭 서치 (1)
 
-A – 2805 나무 자르기 https://www.acmicpc.net/problem/2805
-
-B – 1654 랜선 자르기 https://www.acmicpc.net/problem/1654
-
-C – 2869 달팽이는 올라가고 싶다 https://www.acmicpc.net/problem/2869
-
-D – 2512 예산 https://www.acmicpc.net/problem/2512
-
-E – 2110 공유기 설치 https://www.acmicpc.net/problem/2110
-
+A – 2805 나무 자르기 https://www.acmicpc.net/problem/2805  
+B – 1654 랜선 자르기 https://www.acmicpc.net/problem/1654  
+C – 2869 달팽이는 올라가고 싶다 https://www.acmicpc.net/problem/2869 [v]  
+D – 2512 예산 https://www.acmicpc.net/problem/2512  
+E – 2110 공유기 설치 https://www.acmicpc.net/problem/2110  
  
-
 문제를 풀기 전에 공부하기: 파라메트릭 서치
-
 학습 유의사항: X
 
  
