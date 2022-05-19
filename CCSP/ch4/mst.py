@@ -36,13 +36,18 @@ def mst(wg: WeightedGraph[V], start:int = 0) -> Optional[WeightedPath]:
 
     return result
 
+
 def print_weighted_path(wg: WeightedGraph, wp: WeightedPath) -> None:
     for edge in wp:
         print(f"{wg.vertex_at(edge.u)}{edge.weight} > {wg.vertex_at(edge.v)}")
     print(f"가중치 총합: {total_weight(wp)}")
 
+
 if __name__ == "__main__":
-    city_graph2: WeightedGraph[str] = WeightedGraph(["Seattle", "San Francisco", "Los Angeles", "Riverside", "Phoenix", "Chicago", "Boston", "New York", "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"])
+
+    city_graph2: WeightedGraph[str] = \
+        WeightedGraph(["Seattle", "San Francisco", "Los Angeles", "Riverside",
+                       "Phoenix", "Chicago", "Boston", "New York", "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"])
 
     city_graph2.add_edge_by_vertices("Seattle", "Chicago", 1737)
     city_graph2.add_edge_by_vertices("Seattle", "San Francisco", 678)

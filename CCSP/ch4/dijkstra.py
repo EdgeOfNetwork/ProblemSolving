@@ -22,6 +22,7 @@ class DijkstraNode:
 
 
 def dijkstra(wg: WeightedGraph[V], root: V) -> Tuple[List[Optional[float]], Dict[int, WeightedEdge]]:
+
     first : int = wg.index_of(root) #시작 인덱스를 찾는다.
     distances : List[Optional[float]] = [None] * wg.vertex_count
     distances[first] = 0           #루트에서 루트 자신의 거리는 0
@@ -65,6 +66,7 @@ def path_dict_to_path(start: int, end: int, path_dict: Dict[int, WeightedEdge]) 
 
 
 if __name__ == "__main__":
+
     city_graph2: WeightedGraph[str] = WeightedGraph(["Seattle", "San Francisco", "Los Angeles", "Riverside", "Phoenix", "Chicago", "Boston", "New York", "Atlanta", "Miami", "Dallas", "Houston", "Detroit", "Philadelphia", "Washington"])
 
     city_graph2.add_edge_by_vertices("Seattle", "Chicago", 1737)

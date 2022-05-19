@@ -8,4 +8,3 @@ while 1:
     cnt += 1
     if sum >= v:
 
-
