@@ -9,9 +9,9 @@ T = TypeVar('T', bound='Chromosome') #type에 맞지않는 데이터가 드가�
 #서브클래스??
 
 #모든 염색체의 베이스 클래스, 모든 메서드는 오버라이드 됨
-class Chromosome(ABC):
+class Chromosome(ABC): #추상 클래스 상속
     @abstractmethod #추상 메서드의 용도란?
-    def fitness(self) -> float:
+    def fitness(self) -> float: #염색체가 문제를 얼마나 잘 해결하는지
         ...
 
     @classmethod
@@ -26,4 +26,15 @@ class Chromosome(ABC):
     @abstractmethod
     def mutate(self) -> None:
         ...
+
+"""
+도형 아래 
+삼각형, 사각형, 원 등이 있다.
+
+도형이라는 추상클래스가 있다면 도형에는 
+꼭지점세기, 색깔입히기 등 모든 도형을 아우르는 메서드들을 넣을 수 있겠다.
+즉, 하나의 개념에 대해 "추상적인 개념들을 집어넣는 상대적 윗 개념의 클래스를 선언하여
+공통분모를 만드는 것이라 볼 수 있겠다.
+
+"""
 

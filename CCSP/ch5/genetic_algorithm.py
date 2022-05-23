@@ -17,4 +17,3 @@ class GeneticAlgorithm(Generic[C]): #크로모좀을 바인딩한 제네릭 형�
                  , max_generations: int = 100, mutation_chance: float = 0.01
                  , croessover_chance: float=0.7, selection_type:SelectionType = SelectionType.TOURNAMENT):
 
-        
