@@ -3,6 +3,7 @@ from typing import TypeVar, Tuple, Type #-> typing 패키지는 뭘까
 from abc import ABC, abstractmethod
 
 T = TypeVar('T', bound='Chromosome') #type에 맞지않는 데이터가 드가면 warning을 띄워준다.
+#자신을 반환한다??
 #TypeVar 클래스 T가 Chromosome 클래스와 바인딩되어 있음
 #타입 T인 변수는 크로모좀 클래스의 인스턴스 혹은 서브클래스여야함.
 
@@ -20,7 +21,7 @@ class Chromosome(ABC): #추상 클래스 상속
         ...
 
     @abstractmethod
-    def crossover(self: T, other:T) -> Tuple[T, T]:
+    def crossover(self: T, other:T) -> Tuple[T, T]: # 세대마다 염색체의 유전자가 (무작위로) 변이될 가능성 존재
         ...
 
     @abstractmethod
