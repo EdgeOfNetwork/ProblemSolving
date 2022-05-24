@@ -57,7 +57,7 @@ class GeneticAlgorithm(Generic[C]): #크로모좀을 바인딩한 제네릭 형�
         self._population = new_population #새 집단으로 참조를 변경
 
     # mutation chance 확률로 각 개별 염색체를 돌연변이한다.
-    def _mutation(self) -> None:
+    def _mutate(self) -> None:
         for individual in self._population:
             if random() < self._mutation_chance:
                 individual.mutate()
@@ -71,7 +71,7 @@ class GeneticAlgorithm(Generic[C]): #크로모좀을 바인딩한 제네릭 형�
                 return best
             print(f"세대 {generation} 최상 {best.fitness()} 평균 {mean(map(self._fitness_key, self._population))}")
             self._reproduce_and_replace()
-            self._mutation()
+            self._mutate()
             highest: C = max(self._population, key= self._fitness_key)
             if highest.fitness() > best.fitness():
                 best = highest
