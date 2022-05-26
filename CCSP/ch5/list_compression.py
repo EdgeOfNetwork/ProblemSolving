@@ -8,8 +8,14 @@ from zlib import compress
 from sys import getsizeof
 from pickle import dumps
 
-PEOPLE: List[str] = ["Michael", "Sarah", "Joshua", "Narine", "David", "Sajid",
-                     "Melanie", "Daniel", "Wei", "Dean", "Brian", "Murat", "Lisa"]
+
+PEOPLE: List[str] = [
+    "Michael", "Sarah", "Joshua",
+    "Narine", "David", "Sajid",
+    "Melanie", "Daniel", "Wei",
+    "Dean", "Brian", "Murat", "Lisa"
+]
+
 
 class ListCompression(Chromosome):
     def __init__(self, lst: List[Any]) -> None:
