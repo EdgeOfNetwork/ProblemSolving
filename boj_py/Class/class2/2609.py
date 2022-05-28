@@ -1,8 +1,9 @@
 n, m = map(int, input().split())
 
-i = 2
-while True:
-    if n % i == 0  and m % i == 0 :
-        print(i)
-        break
-    i += 1
+def gcd(n, m):
+    if m == 0 : return n
+    else : return gcd(m, n % m)
+
+res = gcd(n,m)
+print(res)
+print(n * m // res)
