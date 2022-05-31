@@ -10,12 +10,12 @@ sum = 0
 for i in A:
     sum += i
 
-print(float(sum/len(A), 2))
+print(int(round(sum/len(A), 0)))
 
 sorted_A = sorted(A)
 
 #중앙값
-if sorted_A % 2 == 0 : #짝수라면 14라면 7과 8 사이란건데
+if len(sorted_A) % 2 == 0 : #짝수라면 14라면 7과 8 사이란건데
     median_mean = sorted_A[len(sorted_A) // 2] + sorted_A[len(sorted_A)]
     print(median_mean)
 else:
@@ -25,14 +25,14 @@ else:
 
 #최빈값
 
-count = [0] * n
-set_A = set(sorted_A)
-for i in set_A:
-    if i in sorted_A:
-        count
+set_A = sorted(set(sorted_A)) #요소가 있는지 확인
+count = [0] * len(set_A)
+
+for i in range(len(sorted_A)):
+    if sorted_A[i] in set_A: #요소가 안에 있으면 set_A와 count가 일치하는 index를 올려야한다
+        count[]
 
 
-for
 
 
 #범위
