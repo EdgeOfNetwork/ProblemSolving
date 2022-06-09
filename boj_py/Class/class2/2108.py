@@ -22,22 +22,35 @@ else:
     median_mean = sorted_A[math.ceil(len(sorted_A) // 2)]
     print(median_mean)
 
-
 #최빈값
-set_A = sorted(set(sorted_A)) #요소가 있는지 확인
+counts = dict()
+for i in range(1, n + 1):
+    counts[i] = []
 
-new_A = []
-for i in set_A:
-    new_A.append(0, i)
+print(counts)
+max_count = 1
+count = 1
 
+for j in range(1, n):
+    if sorted_A[j] == sorted_A[j - 1]: #sort가 되어있다는 전제가 있기때문에 자신있게 이렇게 푼 것
+        count += 1
+    else:
+        counts[count].append(sorted_A[j - 1]) #연속성이 끊기면, 즉, [1,1,1,2] 에서 1에서 2로 넘어간다면
+        if max_count < count:
+            max_count = count
+        count = 1
+    if j == n - 1:
+        counts[count].append(sorted_A[j])
+        if max_count < count : max_count = count
 
-#요소가 안에 있으면 set_A와 count가 일치하는 index를 올려야한다
-for i in range(len(sorted_A)):
-    if new_A[1] in set_A:
-        new_A[0] += 1
+if n == 1:
+    counts[1].append(sorted_A[0])
 
-
-
+counts[max_count].sort()
+if len(counts[max_count]) == 1:
+    print(counts[max_count][0])
+else:
+    print(counts[max_count][1])
 
 #범위
 print(max(sorted_A) - min(sorted_A))
