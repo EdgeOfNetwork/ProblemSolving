@@ -1,16 +1,20 @@
-n = int(input())
-A = list(map(int, input().split()))
-cnt = 0
+m, n = map(int, input().split())
+
+# for i in range(m, n + 1):
+#     if 1 == i:
+#         continue
+#     for j in range(2, int(i ** 0.5) + 1):#다 검사할 필요가 없다.
+#         if i % j == 0:
+#             break
+#     else:
+#         print(i)
 
 
-for num in A: # 5
-    error = 0
-    if num > 1: # 0과 1을 제거하는 로직
-        for i in range(2, num): #그치 다 볼필요는 없지
-            if num % i == 0:    #완탐
-                error += 1 #에러 없이 풀수는 없을까?
-        if error == 0:
-            cnt += 1
+for i in range(m, n + 1):
+    if 1 > i:
+        for j in range(2, int(i ** 0.5) + 1):
+            if i % j == 0:
+                break
+        print(i)
 
-print(cnt)
 
