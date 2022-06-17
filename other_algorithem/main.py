@@ -1,16 +1,25 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+from typing import Tuple, List, Callable
+import math
+import heapq
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+matrix = [
+    [True, True, True, False, False, False, False],
+    [True, False, True, False, False, False, False],
+    [True, False, True, True, True, True, True],
+    [True, False, True, False, False, False, True],
+    [True, False, True, False, True, True, True],
+    [True, False, True, False, True, False, False],
+    [True, True, True, True, True, True, True],
+]
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+Coord = Tuple[int, int]
+
+start = (2, 2)
+dest = (6, 6)
+
+total_cost, paths, vis, heuristic_cost = a_star(matrix, start, dest)
+
+
+
