@@ -42,7 +42,7 @@ D – 1406 에디터 https://www.acmicpc.net/problem/1406
 
 문제를 풀기 전에 공부하기: 스택, 큐, 덱, 연결 리스트
 
-학습 유의사항: 역시 자료구조를 직접 구현하기보다는 std::stack, std::queue, std::deque, std::list를 활용하는 방향으로 학습해 보자.
+학습 유의사항: 역시 자료구조를 직접 구현하기보다는 std::stack, std::queue, std::deque, std::list를 활용하는 방향으로 학습해 보자.  
 
 <hr/>
 
